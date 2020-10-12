@@ -1,0 +1,61 @@
+body, html{
+    font-family: sans-serif;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: blue;
+}   
+.nav a {
+    float: left;
+    border-right: 2px solid WHITE;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    
+}   
+.nav a.active {
+    color: orange;
+}
+.nav a:hover {
+    background-color: orange;
+    color: black;
+}
+
+#foto img{
+    width: 60%;
+    height: 60%;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+#text{
+    position: absolute;
+    left: 1250px;
+    bottom: 300px;
+    font-size: xx-large;
+    padding-right: 50px;
+}
+#text h1{
+    color: blue;
+}
+#text a{
+    color: orange;
+    text-decoration: none;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 25px;
+    color: white;
+}
+footer i{
+    padding: 30px;
+}
