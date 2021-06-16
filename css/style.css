@@ -3,6 +3,9 @@ body {
     margin-top: 50px;
     font-family: sans-serif;
 }
+.nav:hover{
+    color: orange;
+}
 header {
     display: flex;
     position: fixed;
